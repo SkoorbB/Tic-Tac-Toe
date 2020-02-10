@@ -1,5 +1,29 @@
+.body {
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    height: 650px;
+}
+
+
+.ttt {
+    font-size: 85px;
+    display: flex;
+    justify-self: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
+    grid-gap: 3px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.square{
+    background-color: grey;
+    
 }
