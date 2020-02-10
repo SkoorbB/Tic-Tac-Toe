@@ -1,7 +1,6 @@
 .body {
-
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 100px 50px 1fr;
     grid-template-columns: 1fr;
     height: 650px;
 }
@@ -14,6 +13,7 @@
 }
 
 .grid {
+    grid-row: 3;
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
@@ -23,7 +23,50 @@
     
 }
 
-.square{
+.square {
     background-color: grey;
-    
+}
+
+.square1 {
+    grid-row: 1/ span 1;
+    grid-column: 1/ span 1;
+}
+
+.square2 {
+    grid-row: 1/ span 1;
+    grid-column: 2/ span 1;
+}
+
+.square3 {
+    grid-row: 1/ span 1;
+    grid-column: 3/ span 1;
+}
+.square4 {
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 1;
+}
+.square5 {
+    grid-row: 2/ span 1;
+    grid-column: 2/ span 1;
+}
+.square6 {
+    grid-row: 2/ span 1;
+    grid-column: 3/ span 1;
+}
+.square7 {
+    grid-row: 3/ span 1;
+    grid-column: 1/ span 1;
+}
+.square8 {
+    grid-row: 3/ span 1;
+    grid-column: 2/ span 1;
+}
+
+.square9 {
+    grid-row: 3/span 1;
+    grid-column: 3/ span 1;
+}
+
+.button {
+    justify-self: center;
 }
